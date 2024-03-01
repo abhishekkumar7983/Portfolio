@@ -123,7 +123,7 @@ const Contact = () => {
         </motion.h2>
       </div>
       <div className="h-full w-full flex flex-col lg:flex-row ">
-        <div className="container mx-auto lg:pt-5 lg:pb-32 py-20 text-center xl:text-left flex items-center justify-center w-2/3 h-full  ">
+        <div className="container mx-auto lg:pt-5 lg:pb-32 py-20 text-center xl:text-left flex items-center justify-center w-full lg:w-2/3 h-full  ">
           {/* {text $ forms} */}
           <div className="flex flex-col w-full max-w-[700px]">
             {/* {text} */}
@@ -138,7 +138,7 @@ const Contact = () => {
               initial="hidden"
               animate="show"
               exit="hidden"
-              className="flex-1 flex flex-col gap-6 w-full mx-auto"
+              className="flex-1 flex flex-col gap-6 w-full mx-0 lg:mx-auto"
             >
               {/* {input group} */}
               <div className="flex gap-x-6 w-full">
