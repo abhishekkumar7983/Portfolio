@@ -1,6 +1,5 @@
 import { Canvas } from "@react-three/fiber";
 import { Suspense, useRef, useState } from "react";
-import { Fox } from "./Fox";
 import { Html } from "@react-three/drei";
 
 // framer motion
@@ -20,6 +19,7 @@ import { motion } from "framer-motion";
 
 //  variants
 import { fadeIn } from "../../variants";
+import { Fox } from "../../components/Fox";
 
 const Contact = () => {
   const [state, handleSubmitEmail] = useForm("xyyrjwwn");
